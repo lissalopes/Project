@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+   background-color: white;
+}
+
+.body {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.overview {
+    background-image: linear-gradient(rgb(103, 67, 255), rgb(51, 45, 233));
+    border-radius: 0 0 2rem 2rem;
+    height: 350px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.overview h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 1.3rem;
+    opacity: 70%;
+}
+
+.overview .overview_score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-image: linear-gradient(rgb(75, 36, 205), rgb(51, 45, 233));
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+}
+
+.overview .overview_score .number {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.overview .overview_score .number_under {
+    padding-top: .4rem;
+    padding-bottom: 0;
+    margin: 0;
+    opacity: 60%;
+}
+
+.overview h1 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+
