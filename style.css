@@ -8,14 +8,14 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr;
     margin: auto;
+    font-family: 'Roboto', sans-serif;
 }
 
 .overview {
     background-image: linear-gradient(rgb(103, 67, 255), rgb(51, 45, 233));
     border-radius: 0 0 2rem 2rem;
     height: 370px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
+    color: white; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,6 +71,109 @@ body {
     line-height: 1.3rem;
 }
 
+.score {
+    margin: 1rem;
+    padding: .5rem;
+}
 
+.score h2 {
+    font-size: 1.2rem;
+    font-weight: 500; 
+}
 
+.score .score_reaction {
+    margin: 1rem 0 1rem 0;
+    display: grid;
+    grid-template-columns: .3fr 2fr 1fr;
+    background-color: rgba(229, 115, 123, 0.15);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.score .score_reaction_reaction {
+    color: rgb(229, 115, 123);
+}
+
+.score .score_reaction_number {
+    text-align: end;
+    font-weight: 600;
+}
+
+.score .score_memory {
+    margin: 1rem 0 1rem 0;
+    display: grid;
+    grid-template-columns: .3fr 2fr 1fr;
+    background-color: rgba(247, 201, 99, 0.15);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.score .score_memory_memory {
+    color: rgb(247, 201, 99);
+}
+
+.score .score_memory_number {
+    text-align: end;
+    font-weight: 600;
+}
+
+.score .score_verbal {
+    margin: 1rem 0 1rem 0;
+    display: grid;
+    grid-template-columns: .3fr 2fr 1fr;
+    background-color: rgba(66, 179, 150, 0.15);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.score .score_verbal_verbal {
+    color:rgb(66, 179, 150);
+}
+
+.score .score_verbal_number {
+    text-align: end;
+    font-weight: 600;
+}
+
+.score .score_visual {
+    margin: 1rem 0 1rem 0;
+    display: grid;
+    grid-template-columns: .3fr 2fr 1fr;
+    background-color:rgba(60, 73, 195, 0.15);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.score .score_visual_visual {
+    color:rgb(60, 73, 195);
+}
+
+.score .score_visual_number {
+    text-align: end;
+    font-weight: 600;
+}
+
+.score span {
+    opacity: 50%;
+}
+
+.button {
+    padding: 1rem;
+    background-color: rgb(48, 59, 89);
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    margin: 0 1.5rem 0 1.5rem;
+    border-radius: 2rem;
+}
+
+.button:hover {
+    background-color: rgb(75, 36, 205);
+}
+
+.attribution {
+    font-size: x-small;
+    text-align: center;
+    margin: 1rem;
+}
 
