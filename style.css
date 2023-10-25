@@ -7,21 +7,26 @@ body {
 .body {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    margin: auto;
 }
 
 .overview {
     background-image: linear-gradient(rgb(103, 67, 255), rgb(51, 45, 233));
     border-radius: 0 0 2rem 2rem;
-    height: 350px;
+    height: 370px;
     color: white;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .overview h2 {
     text-align: center;
     font-weight: 400;
     font-size: 1rem;
-    margin: 1.3rem;
+    margin: 1rem;
     opacity: 70%;
 }
 
@@ -31,7 +36,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 1rem;
+    margin: .5rem;
     padding: 1rem;
     background-image: linear-gradient(rgb(75, 36, 205), rgb(51, 45, 233));
     height: 110px;
@@ -48,14 +53,24 @@ body {
     padding-top: .4rem;
     padding-bottom: 0;
     margin: 0;
-    opacity: 60%;
+    opacity: 40%;
 }
 
 .overview h1 {
     font-weight: 500;
     font-size: 1.5rem;
     text-align: center;
-    margin: 1rem;
+    margin: .5rem;
 }
+
+.overview p {
+    font-size: 1rem;
+    opacity: 70%;
+    text-align: center;
+    width: 70%;
+    line-height: 1.3rem;
+}
+
+
 
 
