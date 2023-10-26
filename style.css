@@ -153,11 +153,13 @@ body {
     font-weight: 600;
 }
 
-.score span {
+.score .numbers {
     opacity: 50%;
 }
 
-.button {
+.button {  
+    width: 80%;
+    position: absolute;
     padding: 1rem;
     background-color: rgb(48, 59, 89);
     color: white;
@@ -174,6 +176,46 @@ body {
 .attribution {
     font-size: x-small;
     text-align: center;
-    margin: 1rem;
+    margin: 2rem;
 }
 
+@media screen and (min-width: 769px) {
+    .body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 600px;
+        height: 450px;
+        margin-top: 16rem;
+        filter: drop-shadow(rgb(116, 125, 147));
+
+    }
+
+    .overview {
+        height: 390px;
+        border-radius: 2rem;
+    }
+
+    .button{
+       width: 200px; 
+    }
+    
+    .score .score_reaction {
+        display: grid;
+        grid-template-columns: .4fr 2fr 1fr;
+    }
+
+    .score .score_memory{
+        display: grid;
+        grid-template-columns: .4fr 2fr 1fr;
+    }
+
+    .score .score_verbal {
+        display: grid;
+        grid-template-columns: .4fr 2fr 1fr;
+    }
+
+    .score .score_visual {
+        display: grid;
+        grid-template-columns: .4fr 2fr 1fr;
+    }
+}
